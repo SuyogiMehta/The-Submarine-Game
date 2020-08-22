@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title> The Submarine Game </title>
+    <script src="E-Submarine-Game-Script.js"></script>
+    <link rel="stylesheet" href="E-Submarine-Game-Style.css" />
+</head>
+
+<body onload="my()">
+
+    <div id="body">
+
+        <img src="D:\Vijay's collection folder\HTML\images for html\Sea level.png" id="subBody">
+
+        <img src="D:\Vijay's collection folder\HTML\images for html\Your Submarine.png" id="youSubmarine">
+
+        <img src="D:\Vijay's collection folder\HTML\images for html\Your Submarine.png" id="enemySubmarine">
+
+        <div id="controler">
+
+            <button id="diveAt" onclick="my2()"> Dive At... / Surface <At class=""></At> </button><br>
+            <input type="number" min="0" max="400" id="dS" value="100">
+            <label id="meters">meters.</label><br>
+
+            <button id="moveLeft" onmousedown="my3()" onmouseup="my6()">
+                <pre> <= </pre></button>
+            <button id="moveRight" onmousedown="my7()" onmouseup="my8()">
+                <pre> => </pre></button>
+
+            <button id="missileLauncher" onclick="launchMissile()">Launch a Missile</button>
+
+        </div>
+
+    </div>
+
+    <p id="trial"></p>
+    <p id="trial3"></p>
+    <p id="trial4"></p>
+    <p id="trial5"></p>
+    <p id="trial6"></p>
+    <p id="trial7"></p>
+    <p id="trial8"></p>
+
+</body>
+
+</html>
