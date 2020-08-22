@@ -182,12 +182,12 @@ function my10() {
 function launchMissile() {
     var missile = document.createElement("INPUT");
     missile.setAttribute("type", "range");
-    missile.style.position = "reletive";
+    missile.style.position = "relative";
     missile.style.width = "500px";
-    missile.style.("height", "20px");
-    missile.style.("min", "1");
-    missile.style.("max", "500");
-    missile.style.("id", "missile");
+    missile.style.height = "20px";
+    missile.style.min = "1";
+    missile.style.max = "500";
+    missile.style.id = "missile";
     // missile.style.position = "relative";
     // missile.style.width = "500px";
     // missile.style.height = "20px";
