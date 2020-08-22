@@ -1,0 +1,78 @@
+#subBody {
+    width: 100%;
+    height: 550px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+body {
+    overflow: hidden;
+}
+
+#youSubmarine {
+    height: 50px;
+    width: 200px;
+    position: absolute;
+    z-index: 1;
+    top: 70px;
+    left: -245px;
+}
+
+#enemySubmarine {
+    height: 50px;
+    width: 200px;
+    position: absolute;
+    z-index: 1;
+    top: 70px;
+    right: -245px;
+    transform: rotateY(180deg);
+}
+
+#controler {
+    position: fixed;
+    top: 550px;
+    background-color: rgb(100, 0, 100);
+    width: 99.3%;
+    height: 207px;
+    left: 0px;
+    border: 5px solid lawngreen;
+}
+
+#diveAt {
+    position: relative;
+    background-color: lime;
+    left: 45%;
+    color: maroon;
+    font-weight: bold;
+    border: 3px solid magenta;
+    height: 30px;
+    width: 200px;
+}
+
+#dS {
+    position: relative;
+    background-color: lime;
+    color: maroon;
+    border: 3px solid magenta;
+    font-weight: bold;
+    font-size: 15px;
+    left: 47%;
+    height: 20px;
+    margin-top: 10px;
+}
+
+#meters {
+    position: relative;
+    color: lime;
+    font-weight: bold;
+    left: 47%;
+}
+
+/* #missile {
+    position: relative;
+    width: 500px;
+    height: 10px;
+    z-index: 1;
+} */
