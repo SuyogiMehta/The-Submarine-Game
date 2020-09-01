@@ -27,7 +27,7 @@ body {
     z-index: 1;
     top: 70px;
     right: -245px;
-    transform: rotateY(180deg);
+/*     transform: rotateY(180deg); */
 }
 
 #controler {
