@@ -40,7 +40,7 @@ function my2() {
     }
     if (differance > 0) {
         setTimeout(() => {
-            document.getElementById("youSubmarine").style.transition = "0.1s";
+            document.getElementById("youSubmarine").style.transition = "0.05s";
             document.getElementById("trial4").innerHTML = "2";
             my5()
         }, 0)
