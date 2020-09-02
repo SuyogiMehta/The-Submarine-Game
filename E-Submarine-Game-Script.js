@@ -30,17 +30,17 @@ function my2() {
         var youSubmarine2 = document.getElementById("trial").innerHTML.slice(0, 3);
         var youSubmarine3 = Number(youSubmarine2);
     }
-    var differance = Number((youSubmarine3 - 70) - dS);
+    var differance = Number((youSubmarine3 - 62) - dS);
     if (differance < 0) {
         setTimeout(() => {
-            document.getElementById("youSubmarine").style.transition = "5s";
+            document.getElementById("youSubmarine").style.transition = "4s";
             document.getElementById("trial4").innerHTML = "2";
             my4()
         }, 0)
     }
     if (differance > 0) {
         setTimeout(() => {
-            document.getElementById("youSubmarine").style.transition = "5s";
+            document.getElementById("youSubmarine").style.transition = "4s";
             document.getElementById("trial4").innerHTML = "2";
             my5()
         }, 0)
