@@ -33,14 +33,14 @@ function my2() {
     var differance = Number((youSubmarine3 - 65) - dS);
     if (differance < 0) {
         setTimeout(() => {
-            document.getElementById("youSubmarine").style.transition = "4s";
+            document.getElementById("youSubmarine").style.transition = "3s";
             document.getElementById("trial4").innerHTML = "2";
             my4()
         }, 0)
     }
     if (differance > 0) {
         setTimeout(() => {
-            document.getElementById("youSubmarine").style.transition = "4s";
+            document.getElementById("youSubmarine").style.transition = "3s";
             document.getElementById("trial4").innerHTML = "2";
             my5()
         }, 0)
