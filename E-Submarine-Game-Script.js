@@ -33,14 +33,14 @@ function my2() {
     var differance = Number((youSubmarine3 - 65) - dS);
     if (differance < 0) {
         setTimeout(() => {
-            document.getElementById("youSubmarine").style.transition = "2s";
+            document.getElementById("youSubmarine").style.transition = "0.2s";
             document.getElementById("trial4").innerHTML = "2";
             my4()
         }, 0)
     }
     if (differance > 0) {
         setTimeout(() => {
-            document.getElementById("youSubmarine").style.transition = "2s";
+            document.getElementById("youSubmarine").style.transition = "0.2s";
             document.getElementById("trial4").innerHTML = "2";
             my5()
         }, 0)
@@ -60,7 +60,7 @@ function my4() {
         var youSubmarine2 = document.getElementById("trial").innerHTML.slice(0, 3);
         var youSubmarine3 = Number(youSubmarine2);
     }
-    document.getElementById("youSubmarine").style.top = youSubmarine3 + 1 + "px";
+    document.getElementById("youSubmarine").style.top = youSubmarine3 + 0.1 + "px";
     if (document.getElementById("trial4").innerHTML == "1") {
         document.getElementById("diveAt").click();
     }
@@ -84,7 +84,7 @@ function my5() {
         var youSubmarine2 = document.getElementById("trial").innerHTML.slice(0, 3);
         var youSubmarine3 = Number(youSubmarine2);
     }
-    document.getElementById("youSubmarine").style.top = (youSubmarine3 - 1) + "px";
+    document.getElementById("youSubmarine").style.top = (youSubmarine3 - 0.1) + "px";
     if (document.getElementById("trial4").innerHTML == "1") {
         document.getElementById("diveAt").click();
     }
