@@ -3,7 +3,7 @@ document.getElementById("youSubmarine").style.transition = "10s";
 document.getElementById("youSubmarine").style.top = "70px";
 document.getElementById("youSubmarine").style.left = "40px";
 document.getElementById("enemySubmarine").style.transition = "10s";
-document.getElementById("enemySubmarine").style.top = "70px";
+document.getElementById("enemySubmarine").style.top = "62px";
 document.getElementById("enemySubmarine").style.right = "40px";
 }
 
