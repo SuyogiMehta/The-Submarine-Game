@@ -3,7 +3,7 @@ document.getElementById("youSubmarine").style.transition = "10s";
 document.getElementById("youSubmarine").style.top = "70px";
 document.getElementById("youSubmarine").style.left = "40px";
 document.getElementById("enemySubmarine").style.transition = "10s";
-document.getElementById("enemySubmarine").style.top = "62px";
+document.getElementById("enemySubmarine").style.top = "65px";
 document.getElementById("enemySubmarine").style.right = "40px";
 }
 
@@ -30,7 +30,7 @@ function my2() {
         var youSubmarine2 = document.getElementById("trial").innerHTML.slice(0, 3);
         var youSubmarine3 = Number(youSubmarine2);
     }
-    var differance = Number((youSubmarine3 - 62) - dS);
+    var differance = Number((youSubmarine3 - 65) - dS);
     if (differance < 0) {
         setTimeout(() => {
             document.getElementById("youSubmarine").style.transition = "4s";
