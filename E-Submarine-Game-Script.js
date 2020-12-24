@@ -128,6 +128,7 @@ function my9() {
         var youSubmarine3 = document.getElementById("trial6").innerHTML.slice(0, 4);
         var youSubmarine4 = Number(youSubmarine3);
     }
+    document.getElementById("youSubmarine").style.transition = "0.2s";
     document.getElementById("youSubmarine").style.left = (youSubmarine4 - 1) + "px";
     if (document.getElementById("trial5").innerHTML == "mousedown") {
         setTimeout(() => {
@@ -169,6 +170,7 @@ function my10() {
         var youSubmarine3 = document.getElementById("trial8").innerHTML.slice(0, 4);
         var youSubmarine4 = Number(youSubmarine3);
     }
+    document.getElementById("youSubmarine").style.transition = "0.2s";
     document.getElementById("youSubmarine").style.left = (youSubmarine4 + 1) + "px";
     if (document.getElementById("trial7").innerHTML == "mousedown") {
         setTimeout(() => {
